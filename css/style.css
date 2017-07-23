@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: none;
+}
+html {
+  font-size: 10px;
+}
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.mainContainer .topBar {
+  position: absolute;
+  height: 8rem;
+  width: 100%;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #4458D2), color-stop(100, #10A7DA));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to top left, #4458D2 0%, #10A7DA 100%);
+  font-size: 2.8rem;
+}
+.mainContainer .topBar .headerText {
+  position: absolute;
+  top: 50%;
+  color: #f2f4f6;
+  font-weight: 500;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainContainer .bodyContainer {
+  position: absolute;
+  top: 8rem;
+  bottom: 3rem;
+}
+.mainContainer .bodyContainer .uploadImage {
+  position: absolute;
+  top: 3rem;
+  height: 6rem;
+  width: 100%;
+}
+.mainContainer .bodyContainer .uploadImage .button {
+  position: absolute;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  line-height: 4rem;
+  color: #4458D2;
+  background-color: #f2f4f6;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.mainContainer .bodyContainer .memeImageContainer {
+  position: absolute;
+  top: 10rem;
+  bottom: 16rem;
+  width: 100%;
+  left: 2rem;
+}
+.mainContainer .bodyContainer .memeContent {
+  position: absolute;
+  height: 16rem;
+  bottom: 0rem;
+  width: 100%;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 400;
+}
+.mainContainer .bodyContainer .memeContent .topLine {
+  position: absolute;
+  top: 1rem;
+  height: 3rem;
+  left: 2rem;
+  width: 25rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  resize: none;
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 0.1rem solid black;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+.mainContainer .bodyContainer .memeContent .bottomLine {
+  position: absolute;
+  top: 5rem;
+  height: 3rem;
+  line-height: 2rem;
+  width: 25rem;
+  left: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  resize: none;
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 0.1rem solid black;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+.mainContainer .bodyContainer .saveImage {
+  position: absolute;
+  bottom: 0;
+  height: 6rem;
+  width: 100%;
+}
+.mainContainer .bodyContainer .saveImage .button {
+  position: absolute;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  line-height: 4rem;
+  color: #4458D2;
+  background-color: #f2f4f6;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  width: 8rem;
+}
+.mainContainer .bottomBar {
+  position: absolute;
+  bottom: 0;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #f2f4f6;
+  font-size: 1.4rem;
+  font-weight: 300;
+  /* IE10+ */
+  background-image: -ms-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #4458D2), color-stop(100, #10A7DA));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(bottom right, #4458D2 0%, #10A7DA 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to top left, #4458D2 0%, #10A7DA 100%);
+  border-top: 0.1rem solid #f2f4f6;
+}
